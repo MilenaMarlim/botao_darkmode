@@ -7,6 +7,7 @@
     height: 100vh;
     background-color: rgb(142, 182, 222);
     position: relative;
+    transition: 0.3s ease-in-out;
 }
 
 .container.active {
@@ -33,6 +34,7 @@
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
+    transition: 0.3s ease-in-out;
 }
 
 .btn.active:before {
